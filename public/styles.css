@@ -18,7 +18,7 @@ ul {
 nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   padding: 20px;
   box-shadow: 0 9px 6px -2px rgb(223, 223, 223);
 }
@@ -65,7 +65,7 @@ h3 {
   display: block;
   margin: 50px 0;
   border-left: 6px solid rgb(6, 6, 139);
-  background-color: #f6f5f5;
+  background-color: #DDE4E4;
   padding: 20px 10px 20px 40px;
   box-shadow: 5px 2px 6px 1px rgb(201, 200, 200);
   border-radius: 5px;
@@ -79,6 +79,7 @@ h3 {
   position: relative;
   margin-left: 200px;
   margin-right: 200px;
+  /* border-bottom: 2px solid gainsboro; */
 }
 .delete {
   position: absolute;
