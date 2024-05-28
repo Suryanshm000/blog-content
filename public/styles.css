@@ -36,7 +36,7 @@ nav h1 {
 }
 nav p,
 nav a {
-  color: #777;
+  color: #515151;
   font-weight: 300;
 }
 
@@ -65,7 +65,7 @@ h3 {
   display: block;
   margin: 50px 0;
   border-left: 6px solid rgb(6, 6, 139);
-  background-color: #DDE4E4;
+  background-color: #dce4e4;
   padding: 20px 10px 20px 40px;
   box-shadow: 5px 2px 6px 1px rgb(201, 200, 200);
   border-radius: 5px;
@@ -112,7 +112,7 @@ h3 {
 textarea {
   height: 120px;
 }
-.create-blog button {
+ .create-blog button {
   margin-top: 20px;
   background: crimson;
   color: white;
@@ -120,4 +120,20 @@ textarea {
   border: 0;
   font-size: 1.2em;
   cursor: pointer;
+}
+
+.btn{
+  margin-top: 20px;
+  margin-left: 20px;
+  background: crimson;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.about {
+  margin-left: 200px;
+  margin-right: 200px;
 }
