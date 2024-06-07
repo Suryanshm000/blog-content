@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
 body {
   font-family: "Noto Serif", serif;
 }
+
 p,
 h1,
 h2,
@@ -20,20 +22,24 @@ nav {
   justify-content: space-between;
   margin-bottom: 60px;
   padding: 20px;
-  box-shadow: 0 9px 6px -2px rgb(223, 223, 223);
+  box-shadow: 0 14px 6px -1px rgb(223, 223, 223);
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
+
 nav li {
   list-style-type: none;
   margin-left: 20px;
 }
+
 nav h1 {
   font-size: 2em;
 }
+
 nav p,
 nav a {
   color: #515151;
@@ -43,19 +49,29 @@ nav a {
 footer {
   color: rgb(230, 228, 228);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
-.my-gradient{
+
+.my-gradient {
   margin-top: -50px;
+}
+
+@media screen and (min-width: 1300px) {
+
+  footer {
+    margin-top: 400px;
+  }
 }
 
 h2 {
   margin-bottom: 40px;
 }
+
 h3 {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
+
 .content {
   margin: 20px 20px 20px 20px;
 }
@@ -70,6 +86,7 @@ h3 {
   box-shadow: 5px 2px 6px 1px rgb(201, 200, 200);
   border-radius: 5px;
 }
+
 .blogs a:hover h3 {
   color: crimson;
 }
@@ -81,6 +98,7 @@ h3 {
   margin-right: 200px;
   /* border-bottom: 2px solid gainsboro; */
 }
+
 .delete {
   position: absolute;
   top: 0;
@@ -88,6 +106,7 @@ h3 {
   border-radius: 50%;
   padding: 8px;
 }
+
 .delete:hover {
   cursor: pointer;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
@@ -98,6 +117,7 @@ h3 {
   max-width: 400px;
   margin: 0 auto;
 }
+
 .create-blog input,
 .create-blog textarea {
   display: block;
@@ -105,14 +125,17 @@ h3 {
   margin: 10px 0;
   padding: 8px;
 }
+
 .create-blog label {
   display: block;
   margin-top: 24px;
 }
+
 textarea {
   height: 120px;
 }
- .create-blog button {
+
+.create-blog button {
   margin-top: 20px;
   background: crimson;
   color: white;
@@ -122,7 +145,7 @@ textarea {
   cursor: pointer;
 }
 
-.btn{
+.btn {
   margin-top: 20px;
   margin-left: 20px;
   background: crimson;
